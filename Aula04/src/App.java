@@ -10,7 +10,7 @@ public class App {
         aluno.setNome("Rafael");
         // pegar os valores
         JOptionPane.showMessageDialog(null,"Primeiro nome: " +aluno.getNome() + "\n" +"Ra: " + aluno.getRa() + "\n"
-        +"Data de nascimento: "+aluno.getData_nascimento(null) );
+        +"Data de nascimento: "+aluno.getData_nascimento(null)  + "\n" + "Sexo: " + aluno.getSexo(null) );
         //JOptionPane.showMessageDialog(null,"Segundo nome: " +aluno2.getNome());
         // JOptionPane.showMessageDialog(null,"Ra: " + aluno2.getRa());
     }
